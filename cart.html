@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CART page</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="container col-sm-9">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar-brand" href="#"><img src="images/logo.svg" class="size">
+                    </a></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">HOME</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="drop">MEN</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Jeans</a>
+                                    <a href="#">Shirt</a>
+                                    <a href="#">Tshirt</a>
+                                    <a href="#">Chinos</a>
+                                    <a href="#">Blazers</a>
+                                    <a href="#">NightWear</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">KIDS</a></li>
+                        <li><a href="#">ACCESSORIES</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container col-sm-3">
+                <ul class="nav navbar-nav row">
+                    <li class="col-sm-5 col-xs-5"><a href="#" style="color: red;">Login</a></li>
+                    <li class="col-sm-4 col-xs-4"><a href="#"><a class="display-inline sprite bag" href="#"></a></a></li>
+                    <li class="col-sm-3 col-xs-3">
+                        <a href="#">
+                            <a class="display-inline" href="#">
+                                <img src="images/search.svg" class="search" />
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row banner">
+            <img class="img-responsive margin-top image" src="images/inner-banner.jpg">
+            <div class="banner_text">
+                <h2 class=".header_img_bottom">Shoping Cart</h2>
+            </div>
+        </div>
+    </section>
+
+    <nav aria-label="breadcrumb" style="background-color: #f5f5f5;">
+        <ol class="breadcrumb container">
+
+            <li class="breadcrumb-item"><a href="#" style="color: black;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+
+        </ol>
+    </nav>
+
+    <div class="container">
+
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/success.svg" style="height: 20px; width: 20px;" />
+                </div>
+                <div class="media-body">
+                    <strong>Success!</strong> U.S. polo assn. full sleev plain tshirt for man was added to your shopping cart
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/info.svg" style="height: 20px; width: 20px;" />
+                </div>
+                <div class="media-body">
+                    <strong>Info!</strong> U.S. polo assn. full sleev plain tshirt for man was added to your shopping cart
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/warning.svg" style="height: 20px; width: 20px;" />
+                </div>
+                <div class="media-body">
+                    <strong>Warning!</strong> U.S. polo assn. full sleev plain tshirt for man was added to your shopping cart
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/cross-dark.svg" style="height: 20px; width: 20px;" />
+                </div>
+                <div class="media-body">
+                    <strong>Danger!</strong> U.S. polo assn. full sleev plain tshirt for man was added to your shopping cart
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="table-responsive">
+
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Unit Prize</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">SubTotal</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <img src="images/cart-img01.jpg" />
+                        </th>
+                        <td>
+                            <p>U.S. polo assn. full sleev plain tshirt for man</p>
+                            <b>Color</b>
+                            <p>Blue</p>
+                            <b>size</b>
+                            <p>M</p>
+                        </td>
+                        <td>$222.00</td>
+                        <td>1</td>
+                        <td>$222.00</td>
+                        <td><img src="images/cross-dark.svg" style="hight: 20px; width: 20px;" /></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" colspan="2">
+                            <button type="submit" class="cart_button">Continue Shopping</button>
+                        </td>
+
+                        <td colspan="4" style="text-align:right;">
+                            <button type="submit" class="cart_button">Clear Shopping Cart</button>
+                            <button type="submit" class="cart_button">Update Shopping Cart</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 col-xs-12">
+                <table class="table table-bordered table-responsive" style="table-align:right !important;">
+                    <tbody>
+                        <tr style="text-align: right;">
+                            <td style="border:none !important;"></td>
+                            <td style="border:none !important;">SubTotal</td>
+                            <td style="border:none !important;">$222.00</td>
+                        </tr>
+                        <tr style="text-align: right;">
+                            <td style="border:none !important;"></td>
+                            <td style="border:none !important;">Total</td>
+                            <td style="color:red;border:none !important;"><b>$222.00<b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">checkout</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <section style="background-color:#394044; color:#fff">
+        <div class="email-text">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="form footer_text">
+                        <form class="form-horizontal">
+                            Subscribe for Newsletter
+                            <input type="email" class="input-email email-field" placeholder="Enter your email address">
+                            <button type="submit" class="sign_up">SIGN UP</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <ul class="list-inline">
+                            <li>
+                                <a class="a-color" href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <a class="a-color" href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a class="a-color" href="#">Register</a>
+                            </li>
+                            <li>
+                                <a class="a-color" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="copyright">
+            <div class="container border">
+
+                <div class="row text-center">
+                    <p>� 2017 eShopper online store. All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

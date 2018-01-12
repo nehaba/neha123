@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>PROFILE page</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="container col-sm-9">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="navbar-brand" href="#"><img src="images/logo.svg" class="size"></a></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">HOME</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="drop">MEN</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Jeans</a>
+                                    <a href="#">Shirt</a>
+                                    <a href="#">Tshirt</a>
+                                    <a href="#">Chinos</a>
+                                    <a href="#">Blazers</a>
+                                    <a href="#">NightWear</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">KIDS</a></li>
+                        <li><a href="#">ACCESSORIES</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="container col-sm-3">
+
+                <ul class="nav navbar-nav row">
+                    <li class="col-sm-3 col-xs-3"><a href="#">Profile</a></li>
+                    <li class="col-sm-3 col-xs-3"><a href="#" style="color:red;">Login</a></li>
+                    <li class="col-sm-3 col-xs-3"><a href="#"><a class="display-inline sprite bag" href="#"></a></a></li>
+
+                    <li class="col-sm-3 col-xs-3"><a href="#"><a class="display-inline" href="#"><img src="images/search.svg" class="search"></a></li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="row banner">
+            <img class="img-responsive margin-top image" src="images/inner-banner.jpg">
+            <div class="banner_text">
+                <h2 class=".header_img_bottom">Update Profile</h2>
+            </div>
+        </div>
+    </section>
+
+    <nav aria-label="breadcrumb" style="background-color: #f5f5f5;">
+        <ol class="breadcrumb container">
+
+            <li class="breadcrumb-item"><a href="#" style="color: black;">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Update Profile</li>
+
+        </ol>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputUserName">Username</label>
+                            <input type="text" class="form-control" id="InputUserName" placeholder="test123" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <label for="InputGender">Gender</label><br />
+                        <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputPassword">Password</label>
+                            <input type="password" class="form-control" id="InputPassword" placeholder="Please enter your Password" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputEmail">Email</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="test123@gmail.com" />
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputFirstName">First name</label>
+                            <input type="text" class="form-control" id="InputFirstName" placeholder="test" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputMobileNo">Mobile No.</label>
+                            <input class="form-control" id="inputPhone" maxlength="3"
+                                   name="phone" required="required" size="3" title="" type="tel"
+                                   value="" placeholder="123456789" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputLastName">Last name</label>
+                            <input type="text" class="form-control" id="InputLastName" placeholder="test" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="InputPhone">Phone</label>
+                            <input class="form-control" id="inputPhone" maxlength="3"
+                                   name="phone" required="required" size="3" title="" type="tel"
+                                   value="" placeholder="111122222" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+
+                        
+                            <form action="">
+                                <label>Date of Birth</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Date of Birth" />
+                                    <span class="input-group-addon">
+                                        <img src="images/date.png">
+                                    </span>
+                                </div>
+                            </form>
+                        
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <h2 style="font-size:20px;display:inline-block;">Billing Address</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="InputStreet">Street</label>
+                                <input type="text" class="form-control" id="InputStreet" placeholder="Sattelite" />
+                            </div>
+                            <div class="form-group">
+                                <label for="InputCity">city</label>
+                                <input type="text" class="form-control" id="InputCity" placeholder="Ahmedabad" />
+                            </div>
+                            <div class="form-group">
+                                <label for="state">state</label>
+                                <select class="form-control" id="InputState">
+                                    <option>Gujrat</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Contry">contry</label>
+                                <select class="form-control" id="InputContry">
+                                    <option>India</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 style="font-size:20px;display:inline-block;">Shopping Address</h2>
+                                <div class="checkbox" style="margin-top:20px;display:inline-block;">
+                                    <label style="font-size:13px; "><input type="checkbox" value="">same as Billing Address</label>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="InputStreet">Street</label>
+                                <input type="text" class="form-control" id="InputStreet" placeholder="Sattelite" />
+                            </div>
+                            <div class="form-group">
+                                <label for="InputCity">city</label>
+                                <input type="text" class="form-control" id="InputCity" placeholder="Ahmedabad" />
+                            </div>
+                            <div class="form-group">
+                                <label for="state">state</label>
+                                <select class="form-control" id="InputState">
+                                    <option>Gujrat</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Contry">contry</label>
+                                <select class="form-control" id="InputContry">
+                                    <option>India</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align: right; margin-right: 4px !important">
+                <div class="col-xs-12">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section style="background-color:#394044; color:#fff">
+        <div class="email-text">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="form footer_text">
+                        <form class="form-horizontal">
+                            Subscribe for Newsletter
+                            <input type="email" class="input-email email-field" placeholder="Enter your email address">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <ul class="list-inline">
+                            <li>
+                                <a class="a-color" href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <a class="a-color" href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a class="a-color" href="#">Register</a>
+                            </li>
+                            <li>
+                                <a class="a-color" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="copyright">
+            <div class="container border">
+
+                <div class="row text-center">
+                    <p>� 2017 eShopper online store. All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
